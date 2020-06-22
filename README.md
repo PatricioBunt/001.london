@@ -19,6 +19,7 @@ Download the library from their website and upload the following three files to 
 three.js
 three.min.js
 three.module.js
+Upload your 3d model "glb" file to this section aswell.
 
 Next, Under the Assets Folder, click Add new Asset. You will want to create a page called GLTFLoader.js and copy the code from this link: https://github.com/mrdoob/three.js/blob/master/examples/js/loaders/GLTFLoader.js
 
