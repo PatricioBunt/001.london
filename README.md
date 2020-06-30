@@ -19,7 +19,6 @@ Download the library from their website and upload the following three files to 
 three.js
 three.min.js
 three.module.js
-Upload your 3d model "glb" file to this section aswell.
 
 Next, Under the Assets Folder, click Add new Asset. You will want to create a page called GLTFLoader.js and copy the code from this link: https://github.com/mrdoob/three.js/blob/master/examples/js/loaders/GLTFLoader.js
 
@@ -27,6 +26,7 @@ You will want to do the same process again but make the new file called OrbitCon
 
 Create another file in the assets folder named "spinner.js". Here is my personal spinner.js class customized to fit my website, theres comments on it to clarify what stuff means: https://pastebin.com/y9pQRLgi
 You are going to want to change stuff up in this one especially on line 56, this is where you are going to put your 3d file you exported as a glb. But you can't simply reference it, you have to actually find the root location of the file on your shopify site and set that as the source.
+To do this, simply go to your shopify dashboard and click Settings > Files and upload your 3dmodel.glb file. It should upload succesfully and have a URL beside it to reference it by. This is the url that you replace the one in line 56 of the "spinner.js" class with.
 
 -------- UPDATED --------
 
