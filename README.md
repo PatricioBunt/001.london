@@ -31,7 +31,7 @@ You are going to want to change stuff up in this one especially on line 56, this
 -------- UPDATED --------
 
 To finally get the changes to show up, theres two more steps to follow.
-First, create a new file under the Layout folder by clicking "Add a new layout". When prompted, select "Create a new layout from 'Theme' called 'landing'" and click 'Create Layout'. In this file you will add the code that is included in this github repository under "theme.landing.liquid".
+First, create a new file under the Layout folder by clicking "Add a new layout". When prompted, select "Create a new layout from 'Theme' called 'landing'" and click 'Create Layout'. In this file you will add the code that is included in this github repository under "theme.landing.liquid".  (https://github.com/PatricioBunt/001.london/blob/master/theme.landing.liquid)
 
-Next and finally, you have to replace the code in your "index.liquid" file under the Templates folder. It should just say "{{ content_for_index }}", so erase that and replace it with the code I included in this github for "index.liquid"
+Next and finally, you have to replace the code in your "index.liquid" file under the Templates folder. It should just say "{{ content_for_index }}", so erase that and replace it with the code I included in this github for "index.liquid". (https://github.com/PatricioBunt/001.london/blob/master/index.liquid)
 Thats it! Save your changes and you should see it work once you refresh your page!
