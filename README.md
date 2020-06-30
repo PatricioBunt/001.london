@@ -35,3 +35,5 @@ First, create a new file under the Layout folder by clicking "Add a new layout".
 
 Next and finally, you have to replace the code in your "index.liquid" file under the Templates folder. It should just say "{{ content_for_index }}", so erase that and replace it with the code I included in this github for "index.liquid". (https://github.com/PatricioBunt/001.london/blob/master/index.liquid)
 Thats it! Save your changes and you should see it work once you refresh your page!
+
+https://github.com/PatricioBunt/001.london/blob/master/london.glb
