@@ -28,4 +28,10 @@ You will want to do the same process again but make the new file called OrbitCon
 Create another file in the assets folder named "spinner.js". Here is my personal spinner.js class customized to fit my website, theres comments on it to clarify what stuff means: https://pastebin.com/y9pQRLgi
 You are going to want to change stuff up in this one especially on line 56, this is where you are going to put your 3d file you exported as a glb. But you can't simply reference it, you have to actually find the root location of the file on your shopify site and set that as the source.
 
+-------- UPDATED --------
 
+To finally get the changes to show up, theres two more steps to follow.
+First, create a new file under the Layout folder by clicking "Add a new layout". When prompted, select "Create a new layout from 'Theme' called 'landing'" and click 'Create Layout'. In this file you will add the code that is included in this github repository under "theme.landing.liquid".
+
+Next and finally, you have to replace the code in your "index.liquid" file under the Templates folder. It should just say "{{ content_for_index }}", so erase that and replace it with the code I included in this github for "index.liquid"
+Thats it! Save your changes and you should see it work once you refresh your page!
