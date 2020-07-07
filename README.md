@@ -37,3 +37,6 @@ Next and finally, you have to replace the code in your "index.liquid" file under
 Thats it! Save your changes and you should see it work once you refresh your page!
 
 https://github.com/PatricioBunt/001.london/blob/master/london.glb
+
+
+Create a file called "styles.css" under your Assets folder and add the code found here: https://github.com/PatricioBunt/001.london/blob/master/styles.css
