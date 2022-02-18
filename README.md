@@ -1,5 +1,5 @@
 # 001.london
-3d model spinner
+Here is a tutorial on how to create the landing page that I have for my clothing brand: https://www.001.london
 
 
 First of all, watch this video to understand a bit of whats going to happen:
